@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Vile Registration</title>
+    <!-- Esta linha inclui o arquivo css -->
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <h2>Registration Form using JavaScript</h2>
+        <div id="form_sample">
+        </div>
+        <!-- Esta linha inclui o arquivo js -->
+        <script src="formjscript.js"></script>
+
+        <br>
+        <br>
+
+        <form>
+            <label> Nome: </label>
+            <input type="text" name="firstname" placeholder="Digite..." size="15" data-required data-min-length="3"
+                data-max-length="16" /> <br>
+            <label> Sobrenome: </label>
+            <input type="text" name="lastname" placeholder="Digite..." size="15" data-required data-min-length="3"
+                data-max-length="16" /> <br>
+        </form>
+        <br>
+
+        <label> Curso: </label>
+        <select>
+            <option value="Curso">Curso</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select>
+        <br>
+
+        <label> Genero: </label><br>
+        <input type="radio" name="male" /> Homem <br>
+        <input type="radio" name="female" /> Mulher <br>
+        <input type="radio" name="other" /> Não binario <br>
+        <br>
+
+        <label> Fone: </label>
+        <input type="text" name="country code" value="+55" size="2" />
+        <input type="text" name="phone" size="10" /> <br> <br>
+
+        Endereço
+        <br>
+        <textarea cols="80" rows="5" value="address">
+            </textarea>
+        <br> <br>
+
+        Email:
+        <input type="email" id="email" name="email" /> <br><br>
+        Senha:
+        <input type="Password" id="pass" name="pass"> <br><br>
+        Repita a senha:
+        <input type="Password" id="repass" name="repass"> <br><br>
+        
+        <input type="button" value="Registrar" />
+        </form>
+
+    </div>
+</body>
+
+
+</html>
