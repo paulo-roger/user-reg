@@ -5,5 +5,23 @@
     "express-handlebars": "^6.0.6",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.2"
-  }
+  },
+  "name": "user-reg",
+  "description": "��#\u0000 \u0000U\u0000s\u0000e\u0000r\u0000 \u0000R\u0000e\u0000g\u0000i\u0000s\u0000t\u0000r\u0000a\u0000t\u0000i\u0000o\u0000n\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-roger/user-reg.git"
+  },
+  "author": "paulo-roger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-roger/user-reg/issues"
+  },
+  "homepage": "https://github.com/paulo-roger/user-reg#readme"
 }
